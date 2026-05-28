@@ -22,7 +22,7 @@ form.addEventListener("submit", async function(e) {
   tableBody.appendChild(row);
 
   try {
-  const response = await fetch("https://script.google.com/macros/s/AKfycbw7d9XqEXqKOpOqlque7UfmL1oB555cbQpRoCAIwlZwpmYT1wmIJsbSxIDgM6oI_PMJ/exec", {
+  const response = await fetch("https://script.google.com/macros/s/AKfycbzVF2j1jMHkD7sZGp5ITWKHNMSyO7iPcnmBKQzihHSWqCgqVvP6XbTXHedF6g8u04zg/exec", {
     method: "POST",
     body: JSON.stringify({ concepto, monto, tipo }),
     headers: { "Content-Type": "application/json" }
